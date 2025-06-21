@@ -1,0 +1,18 @@
+---
+title: Инструкции
+date: 2025-06-05
+category: manuals
+layout: post
+---
+
+Магнитола
+-------------
+
+
+Автомобиль
+-------------
+
+[Схема электропроводки для RT5-RT6 Правый руль (JP)]({{site.data.globals.wiring_diagram_disk_right}})  
+[Схема электропроводки для RT5-RT6 Левый руль (EN)]({{site.data.globals.wiring_diagram_disk_left}})
+
+

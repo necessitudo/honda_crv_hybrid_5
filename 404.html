@@ -1,25 +1,37 @@
 ---
+layout: default
+title: "404 - Страница не найдена"
 permalink: /404.html
-layout: page
+sitemap: false  # Исключаем из sitemap
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
+<div class="container">
+  <div class="error-page">
+    <h1>404</h1>
+    <p class="lead">Ой! Кажется, мы не можем найти то, что вы ищете.</p>
+    <p>Возможно, страница была перемещена или удалена.</p>
+    
+    <div class="search-box">
+      <p>Попробуйте поискать:</p>
+      {% include search.html %} <!-- Если у вас есть поиск -->
+    </div>
+    
+    <div class="links">
+      <a href="/" class="btn">Главная страница</a>
+      <a href="/blog/" class="btn">Блог</a>
+      <a href="/contact/" class="btn">Контакты</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .error-page {
     text-align: center;
+    padding: 4rem 0;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+  .error-page h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    color: #d33;
   }
 </style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
