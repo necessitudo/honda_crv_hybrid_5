@@ -15,11 +15,11 @@ layout: post
 [Схема электропроводки для RT5-RT6 Правый руль (JP)]({{site.data.globals.wiring_diagram_disk_right}})  
 [Схема электропроводки для RT5-RT6 Левый руль (EN)]({{site.data.globals.wiring_diagram_disk_left}})
 
-[Мануал при действиях в экстренной ситуации (JP)]({{site.data.globals.rescue_auto})
-[Технический буклет (EN)]({{site.data.globals.tech_buklet})
+[Мануал при действиях в экстренной ситуации (JP)]({{site.data.globals.rescue_auto}})
+[Технический буклет (EN)]({{site.data.globals.tech_buklet}})
 
-[Мануал по штатному автозапуску (RU)]({{site.data.globals.wirelles_run_manual})
+[Мануал по штатному автозапуску (RU)]({{site.data.globals.wirelles_run_manual}})
 
 Прочее
 -------------
-[Видеообзор родной японской документации]({{site.data.globals.papers_review})
+[Видеообзор родной японской документации]({{site.data.globals.papers_review}})
