@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "404 - Страница не найдена"
 permalink: /404.html
 sitemap: false  # Исключаем из sitemap
@@ -11,15 +11,8 @@ sitemap: false  # Исключаем из sitemap
     <p class="lead">Ой! Кажется, мы не можем найти то, что вы ищете.</p>
     <p>Возможно, страница была перемещена или удалена.</p>
     
-    <div class="search-box">
-      <p>Попробуйте поискать:</p>
-      {% include search.html %} <!-- Если у вас есть поиск -->
-    </div>
-    
     <div class="links">
-      <a href="/" class="btn">Главная страница</a>
-      <a href="/blog/" class="btn">Блог</a>
-      <a href="/contact/" class="btn">Контакты</a>
+      <a href="{{ site.baseurl }}/" class="btn">Главная страница</a>
     </div>
   </div>
 </div>
